@@ -56,7 +56,7 @@ namespace structProj
             public string city;
             public string state;
                 
-            // 
+            // Creating custom struct
             public Teacher(string teacherNamn, string teacherLnamn, int teacherAge, string teacherCity, string teacherState)
             {
                 this.fnamn = teacherNamn;
