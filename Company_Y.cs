@@ -140,8 +140,6 @@ namespace CSharp_Assignment
             else
             {
 
-                Employee n = new Employee();
-
                 // Making an instance of Employee array
                 Employee[] nya = new Employee[3];
 
