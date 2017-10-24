@@ -1,6 +1,9 @@
 using System;
 using System.IO;
 using System.Text.RegularExpressions;
+// Description: CSharp introduktion assignment
+// Author: Reza Rezaee
+
 
 namespace CSharp_Assignment
 {
