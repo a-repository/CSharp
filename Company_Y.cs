@@ -134,7 +134,7 @@ namespace CSharp_Assignment
                 }
                 else
                 {
-                    break;
+                    Console.WriteLine("Password is wrong!");
                 }
             }
             else
