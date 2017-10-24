@@ -202,7 +202,7 @@ namespace CSharp_Assignment
 
                     Console.WriteLine(nya[num].F_Name + " " + nya[num].L_Name + " " + nya[num].Alder + " " + nya[num].Jobb_title + " " + nya[num].Exp_years + " " + nya[num].Kompetens);
 
-                    Console.WriteLine("Is your information correct?");
+                    Console.WriteLine("Is your information correct? yes/no");
 
 
 
