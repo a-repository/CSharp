@@ -132,6 +132,10 @@ namespace CSharp_Assignment
                     }
 
                 }
+                else
+                {
+                    break;
+                }
             }
             else
             {
