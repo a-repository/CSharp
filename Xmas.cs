@@ -20,10 +20,10 @@ namespace Xmas
             var board2 = "";
             int rows;
 
-            // Fråga user att hur många rader ska var gran
-            Console.WriteLine("var god och ange hur många rader ska vara granen?");
+            // Ask user to enter the number of rows for Xmas Tree
+            Console.WriteLine("Please enter a number of row to define the length of Xmas Tree!");
 
-            // Ta in värdet från user och spara i rows
+            // Take in the number and save it in variable "rows"
             int.TryParse(Console.ReadLine(), out rows);
 
             // For loop 
@@ -46,7 +46,7 @@ namespace Xmas
             }
 
             // Print gran base 
-            // Loop för att skriva ut base i mitten av botten 
+            // Loop throught and print the base for the tree
             for (i=0; i<4; i++)
             {
                 for (j=0; j<(rows-1); j++)
@@ -56,7 +56,7 @@ namespace Xmas
                 board2 += "*\n";
             }
             
-            // Skriva ut granen
+            // Print the whole board/Xmas tree
             Console.WriteLine(board2);
         }
     }
