@@ -3,8 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+// Printing out a ChessBoard 8x8 
+// Author: Reza Rezaee
 
-namespace EDX_Assign_2
+
+
+namespace Chess_Board
 {
     class Program
     {
