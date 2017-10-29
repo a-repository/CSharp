@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System;
 // Printing out a ChessBoard 8x8 
 // Author: Reza Rezaee
 
@@ -34,7 +30,7 @@ namespace Chess_Board
                 board += "\n";
             }
 
-            // Skriva ut Chess board
+            // Print out the Chess board
             Console.WriteLine(board + "\n");
         }
     }
